@@ -1,0 +1,37 @@
+body {
+    background-color: purple;
+  }
+  #class-timer {
+    height: 250px;
+    width: 250px;
+    border: 5px solid darkorchid;
+    border-radius: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: blueviolet;
+    margin-top: 200px;
+  }
+  #time {
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #time-input {
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+  }
+  #buttons {
+    display: flex;
+    justify-content: center;
+  }
+  #play-button {
+    margin-right: 10px;
+    color: magenta;
+  }
+  #pause-button {
+    color: magenta;
+  }
+  
