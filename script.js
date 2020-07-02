@@ -9,7 +9,11 @@ class Timer {
     this.play.addEventListener("click", this.start);
   }
   start() {
-    alert("I am running");
+    this.startInterval = setInterval(function () {
+      time.value = time.value - 1;
+      console.log(time.value);
+    },1000);
   }
+
 }
 const timer = new Timer(time, play, pause);
