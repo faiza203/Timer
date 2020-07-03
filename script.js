@@ -1,6 +1,7 @@
 const time = document.getElementById("time-input");
 const play = document.getElementById("play-button");
 const pause = document.getElementById("pause-button");
+const heading = document.getElementById("program");
 class Timer {
   constructor(durationInput, startButton, pauseButton) {
     this.durationInput = durationInput;
@@ -12,9 +13,11 @@ class Timer {
   start = () => {
     this.tick();
     this.interval = setInterval(this.tick, 1000);
+    heading.textContent = "I am running";
   };
   pause = () => {
     clearInterval(this.interval);
+    heading.textContent = "I am stopped";
   };
   tick = () => {
     const timeRemaining = parseFloat(this.durationInput.value);
@@ -22,7 +25,8 @@ class Timer {
     console.log(this.durationInput.value);
     if (this.durationInput.value <= 0) {
       this.pause();
+      heading.textContent = "I am completed";
     }
-  };
+  }  
 }
 const timer = new Timer(time, play, pause);

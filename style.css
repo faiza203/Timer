@@ -1,15 +1,29 @@
 body {
-  background-color: purple;
+  background-color: darkorchid;
+  border: 24px #e22bc0 solid;
+  margin: 0px;
+}
+#main {
+  border: 20px #5ac6cd solid;
+}
+#secmain {
+  border: 10px #3234cc solid;
+  padding-bottom: 120PX;
+}
+#program {
+  color: #5acdaf;
+  text-align: center;
+  margin-top: 30px;
 }
 #class-timer {
   height: 250px;
   width: 250px;
-  border: 5px solid darkorchid;
+  border: 10px solid magenta;
   border-radius: 100%;
   margin: auto;
   text-align: center;
   background-color: blueviolet;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 #time {
   justify-content: center;
@@ -25,6 +39,7 @@ body {
   border: purple;
   color: blueviolet;
   background-color: magenta;
+  text-align: center;
 }
 #buttons {
   display: flex;
