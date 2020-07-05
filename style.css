@@ -9,7 +9,7 @@ body {
 #secmain {
   border: 10px #3234cc solid;
   padding-bottom: 120PX;
-  background-image: linear-gradient(to right,darkorchid,#e22bc0,#5a5a5a,#ffffff);
+  background-image: linear-gradient(to right,darkorchid,#e22bc0,magenta,#ffffff);
 }
 #program {
   color: #5acdaf;
@@ -25,7 +25,9 @@ body {
   text-align: center;
   background-color: blueviolet;
   margin-top: 60px;
+  background-image: linear-gradient(white,#ffffff);
 }
+
 #time {
   justify-content: center;
   align-items: center;
